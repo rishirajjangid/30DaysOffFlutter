@@ -93,7 +93,6 @@ class _LoginPageState extends State<LoginPage> {
                       SizedBox(
                         height: 40.0,
                       ),
-
                       Material(
                         color: Colors.deepPurple,
                         borderRadius:
@@ -118,25 +117,9 @@ class _LoginPageState extends State<LoginPage> {
                                       fontSize: 18,
                                     ),
                                   ),
-                            // decoration: BoxDecoration(
-                            //   color: Colors.deepPurple,
-                            //   // shape: changeButton
-                            //   //     ? BoxShape.circle
-                            //   //     : BoxShape.rectangle,
-                            //   borderRadius:
-                            //       BorderRadius.circular(changeButton ? 50 : 8),
-                            // ),
                           ),
                         ),
                       ),
-
-                      // ElevatedButton(
-                      //   onPressed: () {
-                      //     Navigator.pushNamed(context, MyRoutes.homeRote);
-                      //   },
-                      //   child: Text('Login'),
-                      //   style: TextButton.styleFrom(minimumSize: Size(150, 40)),
-                      // )
                     ],
                   ),
                 )
