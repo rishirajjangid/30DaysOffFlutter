@@ -1,12 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class MyDeawer extends StatelessWidget {
+class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    const imageUrl =
-        "https://www.pngitem.com/pimgs/m/533-5332945_professional-man-images-hd-hd-png-download.png";
-
+    final imageUrl =
+        "https://avatars.githubusercontent.com/u/12619420?s=460&u=26db98cbde1dd34c7c67b85c240505a436b2c36d&v=4";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
@@ -17,8 +16,8 @@ class MyDeawer extends StatelessWidget {
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
-                accountName: Text("Rishi Datuli"),
-                accountEmail: Text("rishirajjangid03@gmail.com"),
+                accountName: Text("Rishi"),
+                accountEmail: Text("Rishi@gmail.com"),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(imageUrl),
                 ),
@@ -32,7 +31,9 @@ class MyDeawer extends StatelessWidget {
               title: Text(
                 "Home",
                 textScaleFactor: 1.2,
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(
+                  color: Colors.white,
+                ),
               ),
             ),
             ListTile(
@@ -43,7 +44,9 @@ class MyDeawer extends StatelessWidget {
               title: Text(
                 "Profile",
                 textScaleFactor: 1.2,
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(
+                  color: Colors.white,
+                ),
               ),
             ),
             ListTile(
@@ -54,7 +57,9 @@ class MyDeawer extends StatelessWidget {
               title: Text(
                 "Email me",
                 textScaleFactor: 1.2,
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(
+                  color: Colors.white,
+                ),
               ),
             )
           ],
